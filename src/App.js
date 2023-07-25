@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import CardList from "./CardList";
 import Search from "./SearchBox";
 import Scroll from "./Scroll";
+import ErrorBoundry from "./ErrorBoundry";
 // import { render } from "@testing-library/react";
 
 
@@ -45,7 +46,9 @@ class App extends Component{
             <Search searchChange={this.onSearchChange}/>
             <div className="">
               <Scroll>
-                 <CardList robo={filteredrobo} />
+                <ErrorBoundry>
+                  <CardList robo={filteredrobo} />
+                </ErrorBoundry>
               </Scroll>
             </div>
           </div>

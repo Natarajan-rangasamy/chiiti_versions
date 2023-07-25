@@ -3,6 +3,7 @@ import Card from "./Card";
 
 const CardList = ({ robo }) => {
   return (
+    
     <div>
       {robo.map((user, i) => {
         return (
@@ -13,6 +14,7 @@ const CardList = ({ robo }) => {
             name={robo[i].name}
             email={robo[i].email}
           />
+          
         );
       })}
     </div>
