@@ -1,4 +1,4 @@
-import React, { useLayoutEffect } from "react";
+import React from "react";
 
 const Scroll = (props) => {
   return (
@@ -6,9 +6,10 @@ const Scroll = (props) => {
       style={{
         overflowY: "scroll",
         border: "1px solid black",
-        height: "100%",
+        height: "700px",
         borderLeft: "none",
         borderBottom: "none",
+        marginTop: "20px"
       }}
     >
       {props.children}
