@@ -9,7 +9,7 @@ const Scroll = (props) => {
         height: "700px",
         borderLeft: "none",
         borderBottom: "none",
-        marginTop: "20px"
+        marginTop: "25px"
       }}
     >
       {props.children}
