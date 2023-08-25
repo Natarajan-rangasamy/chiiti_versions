@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chiiti_versions/static/css/main.aaef5b0a.css",
+    "main.js": "/chiiti_versions/static/js/main.976c1f25.js",
+    "static/js/787.28cb0dcd.chunk.js": "/chiiti_versions/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/chiiti_versions/index.html",
+    "main.aaef5b0a.css.map": "/chiiti_versions/static/css/main.aaef5b0a.css.map",
+    "main.976c1f25.js.map": "/chiiti_versions/static/js/main.976c1f25.js.map",
+    "787.28cb0dcd.chunk.js.map": "/chiiti_versions/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aaef5b0a.css",
+    "static/js/main.976c1f25.js"
+  ]
+}
